@@ -56,6 +56,7 @@ nav ul{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    width: fit-content;
 
 }
 h1{
@@ -68,7 +69,13 @@ h1{
     line-height: 70px; 
     /* padding-inline: 4rem; */
 }
-
+#second{
+    margin-top: 4rem;
+    margin-bottom: 100px;
+}
+#second h2{
+    margin-top: 12px;
+}
 #second>div:first-child {
     display: flex;
     gap: 1px;
@@ -216,8 +223,21 @@ h2{
 }
 #fourth{
     padding: 2rem;
+    margin-top: 80px;
 }
-
+#second>div:first-child {
+    display: flex;
+    gap: 1px;
+    align-items: center;
+}
+#fourth div:first-child>span{
+    color: #996FF6;
+    font-family: Nanum Pen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+}
 h3{
     color: #000;
 font-family: Alfa Slab One;
@@ -281,6 +301,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 100% */
 }
+#fifth{
+    margin-top: 100px;
+}
 #fifth p{
     color: #000;
 font-family: Montserrat;
@@ -330,6 +353,22 @@ line-height: 26px; /* 162.5% */
 }
 .fourth img{
     border-radius: 100px;
+}
+#sixth{
+    margin-block: 100px;
+}
+#alone:first-child{
+    display: flex;
+    gap: 1px;
+    align-items: center;
+}
+#alone>span{
+    color: #996FF6;
+    font-family: Nanum Pen;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */   
 }
 form{
     width: 40%;
@@ -467,4 +506,96 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 10px; /* 62.5% */
+}
+#eighth{
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 400px; */
+
+}
+#eighth>div{
+    flex: 1;
+}
+footer>button{
+padding: 12px 32px;
+border-radius: 60px;
+background: #fff;
+width: fit-content;
+box-shadow: 0px 4px 4px 0px rgba(140, 190, 39, 0.20);
+color: #5C087A;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 200% */
+}
+footer h3{
+    color: #FFF;
+font-family: Alfa Slab One;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 0;
+}
+footer h4{
+    color: #FFF;
+    font-family: Alfa Slab One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+footer p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 200% */
+margin-block: 1rem;
+}
+.align-right li{
+    text-align: right;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+/* line-height: 10px; 83.333% */
+}
+.align-right ul{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#eighth>div+div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#footer{
+    background-image: url(/images/Rectangle\ 42.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10rem 2rem 1rem;
+    margin-top: 54px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px; /* 83.333% */
+}
+#icons>a+a{
+    /* margin-inline: 4px; */
+}
+#icons{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
 }
